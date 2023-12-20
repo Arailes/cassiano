@@ -13,6 +13,10 @@
     <title>Cassino Sorte em Perder | Home</title>
 </head>
 <body>
+
+    <audio id="bgm" loop>
+        <source src="../assets/audios/music2.mp3" type="audio/mp3" />
+    </audio> 
     <header>
         <div class="interface">
             <div class="logo">
@@ -39,7 +43,39 @@
             </div>
 
         </div> <!--interface-->
+
+    <main>
+  <div class="jogos cassino">
+
+        <div class="game1"> 
+            <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina()">
+
+             <script>
+            // Função que é chamada quando o botão é clicado
+            function redirecionarParaOutraPagina() {
+            // Redireciona para o outro HTML
+            window.location.href = '../pages/game1.html';
+        }
+         </script> 
+    </div>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+  </div>
+
+    
+
+    </main>
     </header>
+
+    <script src="../scripts/home.js"></script>
   
 </body>
 </html>

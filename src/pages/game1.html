@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Jogo da Memoria Dragon Ball GT</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/icons/Icon.png" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/game1.css">
+
+    <!-- musica  -->
+    <audio id="victoryMusic" src="../assets/audios/victoryMusic.mp3"></audio>
+
+</head>
+
+<body>
+    <audio id="bgm" loop>
+        <source src="../assets/audios/musicaDBGT.mp3" type="audio/mp3" />
+    </audio>
+
+    <div class="bg-video">
+        <video class="video" autoplay loop muted>
+            <source src="../assets/videos/Dragon Ball GT Wallpaper engine.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <div class="titulo">
+        <h1>Jogo da Memoria Dragon Ball GT</h1>
+    </div>
+
+          <!-- Botão de reset -->
+    <button id="resetButton" class="reset">Resetar o jogo</button>
+    <br>
+
+    <!-- Elemento para o cronômetro -->
+    <span id="timer" class="temp">Tempo Decorrido: 0 segundos</span>
+
+    <main class="memory-game">
+        <!-- Cartas serão adicionadas dinamicamente aqui -->
+    </main>
+
+    
+    <!-- Mensagem de vitória -->
+    <div id="victoryMessage" class="hidden">
+        <div class="victory-content">
+            <h2>Você Venceu!</h2>
+            <p id="victoryTime">Tempo de Jogo: 0 segundos</p>
+            <!-- Botão de reiniciar após a vitória -->
+            <button id="restartButton" class="hidden">Reiniciar o jogo</button>
+        </div>
+    </div>
+
+
+    <script src="../scripts/game1.js" defer></script>
+</body>
+
+</html>
