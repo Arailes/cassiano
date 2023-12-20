@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/home.css">
 
-    
     <link rel="shortcut icon" href="../assets/icons/logo.png" type="image/x-icon">
 
     <title>Cassino Sorte em Perder | Home</title>
@@ -23,59 +22,89 @@
                 <a href="#">
                     <img src="../assets/images/Logo casino transparent.png" alt="logo do site">
                 </a>
-            </div> <!--logo-->
+            </div>
 
             <nav class="menu-desktop">
                 <ul>
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="#">Jogos</a></li>
-                    <li> <a href="#">Termo de Servços</a></li>
-                    <li> <a href="#">Sobre </a></li>
-                </ul> <!--menu final-->
-
-                
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Termo de Serviços</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
             </nav>
             <div class="btn-contato">
-            <a href="#">
-                <button>Contato</button>
-            </a>
-
+                <a href="#">
+                    <button>Contato</button>
+                </a>
             </div>
-
-        </div> <!--interface-->
-
+        </div>
+    </header>
     <main>
-  <div class="jogos cassino">
+        <div class="jogos-cassino">
+            <div class="game1">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game1.html')">
+            </div>
+        </div>
 
-        <div class="game1"> 
-            <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina()">
+        <div class="jogos-cassino">
+            <div class="game2">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game2.html')">
+            </div>
+        </div>
 
-             <script>
-            // Função que é chamada quando o botão é clicado
-            function redirecionarParaOutraPagina() {
-            // Redireciona para o outro HTML
-            window.location.href = '../pages/game1.html';
-        }
-         </script> 
-    </div>
+        <div class="jogos-cassino">
+            <div class="game3">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game3.html')">
+            </div>
+        </div>
 
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="jogos-cassino">
+            <div class="game4">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game4.html')">
+            </div>
+        </div>
 
-  </div>
+        <div class="jogos-cassino">
+            <div class="game5">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game5.html')">
+            </div>
+        </div>
 
-    
+        <div class="jogos-cassino">
+            <div class="game6">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game6.html')">
+            </div>
+        </div>
+
+        <div class="jogos-cassino">
+            <div class="game7">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game7.html')">
+            </div>
+        </div>
+        
+        <div class="jogos-cassino">
+            <div class="game8">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game8.html')">
+            </div>
+        </div>
+
+        <div class="jogos-cassino">
+            <div class="game9">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game9.html')">
+            </div>
+        </div>
+
+
+        <!-- Adicione mais blocos semelhantes para outros jogos -->
 
     </main>
-    </header>
-
     <script src="../scripts/home.js"></script>
-  
+
+    <script>
+        // Função geral para redirecionar para outra página
+        function redirecionarParaOutraPagina(pagina) {
+            window.location.href = pagina;
+        }
+    </script>
 </body>
 </html>
